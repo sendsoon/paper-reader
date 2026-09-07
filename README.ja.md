@@ -53,6 +53,35 @@ npx skills add sendsoon/paper-reader
 
 インストール後、[skills.sh](https://skills.sh/) のカタログページはテレメトリ到着後に表示されます。
 
+## スキルの更新
+
+Skills CLI で入れた場合は、GitHub から最新の `SKILL.md` を取ります。
+
+```bash
+npx skills check
+npx skills update paper-reader
+```
+
+`check` は新しい版があるかだけ見ます。`update` はこのスキルを、前回入れた同じエージェントへ再インストールします。入っているスキルをすべて更新するなら：
+
+```bash
+npx skills update
+```
+
+確認を省略する：
+
+```bash
+npx skills update paper-reader -y
+```
+
+インストールコマンドをもう一度実行しても、ファイルは最新に上書きされます。
+
+```bash
+npx skills add sendsoon/paper-reader
+```
+
+手でコピーした場合は、このリポジトリを `git pull` し、`SKILL.md`、`references/`、`examples/` を以前の skills ディレクトリへ上書きしてください。
+
 ## 使い方
 
 ```text

@@ -53,6 +53,35 @@ npx skills add sendsoon/paper-reader
 
 安装后，目录页由 [skills.sh](https://skills.sh/) 在收到遥测后展示。
 
+## 如何更新技能
+
+若当初用 Skills CLI 安装，从 GitHub 拉取最新的 `SKILL.md`：
+
+```bash
+npx skills check
+npx skills update paper-reader
+```
+
+`check` 只检查是否有新版本。`update` 会把本技能重装到原先那些智能体。要更新本机已安装的全部技能：
+
+```bash
+npx skills update
+```
+
+跳过确认提示：
+
+```bash
+npx skills update paper-reader -y
+```
+
+再执行一次安装命令也会覆盖为最新文件：
+
+```bash
+npx skills add sendsoon/paper-reader
+```
+
+若是手动复制安装的，先 `git pull` 本仓库，再把 `SKILL.md`、`references/`、`examples/` 覆盖到原来的 skills 目录。
+
 ## 用法
 
 ```text

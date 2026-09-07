@@ -53,6 +53,35 @@ Or clone the repository and copy `SKILL.md`, `references/`, and `examples/` into
 
 The [skills.sh](https://skills.sh/) catalog page updates after install telemetry arrives.
 
+## Update the skill
+
+If you installed with the Skills CLI, pull the latest `SKILL.md` from GitHub:
+
+```bash
+npx skills check
+npx skills update paper-reader
+```
+
+`check` only reports whether a newer hash exists. `update` reinstalls this skill into the same agents as before. To refresh every installed skill:
+
+```bash
+npx skills update
+```
+
+Skip the confirm prompt with `-y`:
+
+```bash
+npx skills update paper-reader -y
+```
+
+Re-running the install command also refreshes the files:
+
+```bash
+npx skills add sendsoon/paper-reader
+```
+
+If you copied files by hand, `git pull` this repository and copy `SKILL.md`, `references/`, and `examples/` over the previous copy.
+
 ## Usage
 
 ```text
