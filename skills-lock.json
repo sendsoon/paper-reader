@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "skills": {
+    "paper-reader": {
+      "source": "sendsoon/paper-reader-skill",
+      "sourceType": "github",
+      "skillPath": "SKILL.md",
+      "computedHash": "1047b716b8c758ca623563dea9c5df681f0af126d3e546323c85f707898b2df4"
+    }
+  }
+}

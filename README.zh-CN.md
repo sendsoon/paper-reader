@@ -5,7 +5,7 @@
 给编程智能体用的论文阅读技能：从链接、DOI 或标题读取论文，按 **原文引用 → 翻译 → 解读** 产出结构化速览。
 
 ```bash
-npx skills add sendsoon/paper-reader
+npx skills add sendsoon/paper-reader-skill
 ```
 
 ## 案例网页
@@ -47,7 +47,7 @@ npx skills add sendsoon/paper-reader
 ## 安装
 
 ```bash
-npx skills add sendsoon/paper-reader
+npx skills add sendsoon/paper-reader-skill
 ```
 
 也可克隆本仓库，把 `SKILL.md`、`references/`、`examples/` 复制到所用智能体的 skills 目录。
@@ -78,7 +78,7 @@ npx skills update paper-reader -y
 再执行一次安装命令也会覆盖为最新文件：
 
 ```bash
-npx skills add sendsoon/paper-reader
+npx skills add sendsoon/paper-reader-skill
 ```
 
 若是手动复制安装的，先 `git pull` 本仓库，再把 `SKILL.md`、`references/`、`examples/` 覆盖到原来的 skills 目录。

@@ -5,7 +5,7 @@
 Agent skill that reads an academic paper from a URL, DOI, or title, then produces a structured briefing: **original quote → translation → interpretation**.
 
 ```bash
-npx skills add sendsoon/paper-reader
+npx skills add sendsoon/paper-reader-skill
 ```
 
 ## Live examples
@@ -47,7 +47,7 @@ Do not use it for peer-review simulation, accept/reject letters, or multi-review
 ## Install
 
 ```bash
-npx skills add sendsoon/paper-reader
+npx skills add sendsoon/paper-reader-skill
 ```
 
 Or clone the repository and copy `SKILL.md`, `references/`, and `examples/` into your agent's skills directory.
@@ -78,7 +78,7 @@ npx skills update paper-reader -y
 Re-running the install command also refreshes the files:
 
 ```bash
-npx skills add sendsoon/paper-reader
+npx skills add sendsoon/paper-reader-skill
 ```
 
 If you copied files by hand, `git pull` this repository and copy `SKILL.md`, `references/`, and `examples/` over the previous copy.

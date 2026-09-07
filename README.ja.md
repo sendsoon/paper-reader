@@ -5,7 +5,7 @@
 論文の URL・DOI・タイトルから本文を読み、**原文引用 → 翻訳 → 解説** の順で構造化したブリーフィングを出すエージェントスキルです。
 
 ```bash
-npx skills add sendsoon/paper-reader
+npx skills add sendsoon/paper-reader-skill
 ```
 
 ## 公開事例
@@ -47,7 +47,7 @@ npx skills add sendsoon/paper-reader
 ## インストール
 
 ```bash
-npx skills add sendsoon/paper-reader
+npx skills add sendsoon/paper-reader-skill
 ```
 
 リポジトリをクローンし、`SKILL.md`、`references/`、`examples/` を各エージェントの skills ディレクトリにコピーしても使えます。
@@ -78,7 +78,7 @@ npx skills update paper-reader -y
 インストールコマンドをもう一度実行しても、ファイルは最新に上書きされます。
 
 ```bash
-npx skills add sendsoon/paper-reader
+npx skills add sendsoon/paper-reader-skill
 ```
 
 手でコピーした場合は、このリポジトリを `git pull` し、`SKILL.md`、`references/`、`examples/` を以前の skills ディレクトリへ上書きしてください。
