@@ -1,0 +1,11 @@
+{
+  "$schema": "https://skills.sh/schemas/skills.sh.schema.json",
+  "notGrouped": "bottom",
+  "groupings": [
+    {
+      "title": "Research",
+      "description": "Read academic papers, quote original claims, then translate and interpret them.",
+      "skills": ["paper-reader"]
+    }
+  ]
+}
