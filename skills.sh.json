@@ -5,7 +5,7 @@
     {
       "title": "Research",
       "description": "Read academic papers, quote original claims, then translate and interpret them.",
-      "skills": ["paper-reader"]
+      "skills": ["paper-reader-skill"]
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "version": 1,
   "skills": {
-    "paper-reader": {
+    "paper-reader-skill": {
       "source": "sendsoon/paper-reader-skill",
       "sourceType": "github",
       "skillPath": "SKILL.md",

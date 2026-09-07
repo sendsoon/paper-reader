@@ -1,4 +1,4 @@
-# paper-reader
+# paper-reader-skill
 
 [English](README.md) | [简体中文](README.zh-CN.md) | **日本語**
 
@@ -26,7 +26,7 @@ npx skills add sendsoon/paper-reader-skill
 
 ## このスキルがすること
 
-`paper-reader` は、コーディングエージェント向けの論文読解ワークフローです（Cursor、Claude Code、Codex、および `SKILL.md` を読み込む他のエージェント）。論文の URL または DOI を渡すと、エージェントは次を行います。
+`paper-reader-skill` は、コーディングエージェント向けの論文読解ワークフローです（Cursor、Claude Code、Codex、および `SKILL.md` を読み込む他のエージェント）。論文の URL または DOI を渡すと、エージェントは次を行います。
 
 1. 読める HTML または PDF 本文を見つける
 2. タイトル・著者・識別子・日付を**原文のまま**取り出す
@@ -60,7 +60,7 @@ Skills CLI で入れた場合は、GitHub から最新の `SKILL.md` を取り�
 
 ```bash
 npx skills check
-npx skills update paper-reader
+npx skills update paper-reader-skill
 ```
 
 `check` は新しい版があるかだけ見ます。`update` はこのスキルを、前回入れた同じエージェントへ再インストールします。入っているスキルをすべて更新するなら：
@@ -72,7 +72,7 @@ npx skills update
 確認を省略する：
 
 ```bash
-npx skills update paper-reader -y
+npx skills update paper-reader-skill -y
 ```
 
 インストールコマンドをもう一度実行しても、ファイルは最新に上書きされます。
@@ -119,7 +119,7 @@ Original / Translation / Interpretation
 このリポジトリは**単一スキルのパッケージ**です。スキルはリポジトリ直下に置き、`npx skills` が最初に発見できるようにしています。
 
 ```text
-paper-reader/
+paper-reader-skill/
 ├── SKILL.md                 # エージェント入口：frontmatter + 手順
 ├── skills.sh.json           # skills.sh のリポジトリページ用グループ
 ├── README.md                # English

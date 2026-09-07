@@ -1,5 +1,5 @@
 ---
-name: paper-reader
+name: paper-reader-skill
 description: >
   Reads academic papers from a URL, DOI, or title (HTML or PDF) and produces a
   structured briefing: original title, authors, verbatim abstract plus

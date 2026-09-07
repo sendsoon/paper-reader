@@ -1,4 +1,4 @@
-# paper-reader
+# paper-reader-skill
 
 **English** | [简体中文](README.zh-CN.md) | [日本語](README.ja.md)
 
@@ -26,7 +26,7 @@ These pages are the public shape of the skill: title unaltered, abstract quoted 
 
 ## What this skill does
 
-`paper-reader` is a reusable workflow for coding agents (Cursor, Claude Code, Codex, and others that load `SKILL.md`). Given a paper link or DOI, the agent:
+`paper-reader-skill` is a reusable workflow for coding agents (Cursor, Claude Code, Codex, and others that load `SKILL.md`). Given a paper link or DOI, the agent:
 
 1. Locates a readable HTML or PDF full text
 2. Extracts the title, authors, identifiers, and dates **verbatim**
@@ -60,7 +60,7 @@ If you installed with the Skills CLI, pull the latest `SKILL.md` from GitHub:
 
 ```bash
 npx skills check
-npx skills update paper-reader
+npx skills update paper-reader-skill
 ```
 
 `check` only reports whether a newer hash exists. `update` reinstalls this skill into the same agents as before. To refresh every installed skill:
@@ -72,7 +72,7 @@ npx skills update
 Skip the confirm prompt with `-y`:
 
 ```bash
-npx skills update paper-reader -y
+npx skills update paper-reader-skill -y
 ```
 
 Re-running the install command also refreshes the files:
@@ -118,7 +118,7 @@ Original / Translation / Interpretation
 This repository is a **single-skill package**. The skill lives at the repo root so `npx skills` discovers it first.
 
 ```text
-paper-reader/
+paper-reader-skill/
 ├── SKILL.md                 # Agent entry: frontmatter + workflow
 ├── skills.sh.json           # skills.sh repo-page grouping
 ├── README.md                # English

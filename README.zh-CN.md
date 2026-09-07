@@ -1,4 +1,4 @@
-# paper-reader
+# paper-reader-skill
 
 [English](README.md) | **简体中文** | [日本語](README.ja.md)
 
@@ -26,7 +26,7 @@ npx skills add sendsoon/paper-reader-skill
 
 ## 技能做什么
 
-`paper-reader` 是给编程智能体使用的论文阅读工作流（Cursor、Claude Code、Codex 及其他会加载 `SKILL.md` 的智能体）。你提供论文链接或 DOI 后，智能体会：
+`paper-reader-skill` 是给编程智能体使用的论文阅读工作流（Cursor、Claude Code、Codex 及其他会加载 `SKILL.md` 的智能体）。你提供论文链接或 DOI 后，智能体会：
 
 1. 定位可读的 HTML 或 PDF 全文
 2. **逐字**提取标题、作者、标识与日期
@@ -60,7 +60,7 @@ npx skills add sendsoon/paper-reader-skill
 
 ```bash
 npx skills check
-npx skills update paper-reader
+npx skills update paper-reader-skill
 ```
 
 `check` 只检查是否有新版本。`update` 会把本技能重装到原先那些智能体。要更新本机已安装的全部技能：
@@ -72,7 +72,7 @@ npx skills update
 跳过确认提示：
 
 ```bash
-npx skills update paper-reader -y
+npx skills update paper-reader-skill -y
 ```
 
 再执行一次安装命令也会覆盖为最新文件：
@@ -120,7 +120,7 @@ Original / Translation / Interpretation
 本仓库是**单技能包**。技能放在仓库根目录，以便 `npx skills` 优先发现。
 
 ```text
-paper-reader/
+paper-reader-skill/
 ├── SKILL.md                 # 智能体入口：frontmatter + 工作流
 ├── skills.sh.json           # skills.sh 仓库页分组
 ├── README.md                # English
