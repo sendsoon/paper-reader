@@ -12,14 +12,15 @@ npx skills add sendsoon/paper-reader
 
 本技能产出的公开解读已发布在 SendSoon 知识库。每页保留官方标题与 arXiv 记录，先引用摘要原文，再按可检索原句逐条解读。
 
-**总览：** [https://sendsoonai.com/docs](https://sendsoonai.com/docs)
+**总览：** [https://sendsoonai.com/paper/ai](https://sendsoonai.com/paper/ai)
 
 | 论文 | 案例页 |
 |---|---|
-| FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness | [sendsoonai.com/docs/flashattention-io-aware-explained](https://sendsoonai.com/docs/flashattention-io-aware-explained) |
-| Native Sparse Attention: Hardware-Aligned and Natively Trainable Sparse Attention | [sendsoonai.com/docs/native-sparse-attention-deepseek-explained](https://sendsoonai.com/docs/native-sparse-attention-deepseek-explained) |
-| Attention Residuals | [sendsoonai.com/docs/attention-residuals-kimi-explained](https://sendsoonai.com/docs/attention-residuals-kimi-explained) |
-| Kimi-Researcher: End-to-End RL Training for Emerging Agentic Capabilities | [sendsoonai.com/docs/kimi-researcher-agentic-rl-explained](https://sendsoonai.com/docs/kimi-researcher-agentic-rl-explained) |
+| Temporal Self-Distillation: Learning Visual State Tracking in Videos Without Supervision | [sendsoonai.com/paper/ai/temporal-self-distillation-s3t-explained](https://sendsoonai.com/paper/ai/temporal-self-distillation-s3t-explained) |
+| FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness | [sendsoonai.com/paper/ai/flashattention-io-aware-explained](https://sendsoonai.com/paper/ai/flashattention-io-aware-explained) |
+| Native Sparse Attention: Hardware-Aligned and Natively Trainable Sparse Attention | [sendsoonai.com/paper/ai/native-sparse-attention-deepseek-explained](https://sendsoonai.com/paper/ai/native-sparse-attention-deepseek-explained) |
+| Attention Residuals | [sendsoonai.com/paper/ai/attention-residuals-kimi-explained](https://sendsoonai.com/paper/ai/attention-residuals-kimi-explained) |
+| Kimi-Researcher: End-to-End RL Training for Emerging Agentic Capabilities | [sendsoonai.com/paper/ai/kimi-researcher-agentic-rl-explained](https://sendsoonai.com/paper/ai/kimi-researcher-agentic-rl-explained) |
 
 这些页面就是技能的公开形态：标题不改写、摘要先原文、5–6 段可核验引用，并写明证据边界。
 

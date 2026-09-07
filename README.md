@@ -12,14 +12,15 @@ npx skills add sendsoon/paper-reader
 
 Published briefings from this skill are on the SendSoon knowledge base. Each page keeps the official title and arXiv record, quotes the abstract, then walks the paper with verbatim sentences.
 
-**Hub:** [https://sendsoonai.com/docs](https://sendsoonai.com/docs)
+**Hub:** [https://sendsoonai.com/paper/ai](https://sendsoonai.com/paper/ai)
 
 | Paper | Live page |
 |---|---|
-| FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness | [sendsoonai.com/docs/flashattention-io-aware-explained](https://sendsoonai.com/docs/flashattention-io-aware-explained) |
-| Native Sparse Attention: Hardware-Aligned and Natively Trainable Sparse Attention | [sendsoonai.com/docs/native-sparse-attention-deepseek-explained](https://sendsoonai.com/docs/native-sparse-attention-deepseek-explained) |
-| Attention Residuals | [sendsoonai.com/docs/attention-residuals-kimi-explained](https://sendsoonai.com/docs/attention-residuals-kimi-explained) |
-| Kimi-Researcher: End-to-End RL Training for Emerging Agentic Capabilities | [sendsoonai.com/docs/kimi-researcher-agentic-rl-explained](https://sendsoonai.com/docs/kimi-researcher-agentic-rl-explained) |
+| Temporal Self-Distillation: Learning Visual State Tracking in Videos Without Supervision | [sendsoonai.com/paper/ai/temporal-self-distillation-s3t-explained](https://sendsoonai.com/paper/ai/temporal-self-distillation-s3t-explained) |
+| FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness | [sendsoonai.com/paper/ai/flashattention-io-aware-explained](https://sendsoonai.com/paper/ai/flashattention-io-aware-explained) |
+| Native Sparse Attention: Hardware-Aligned and Natively Trainable Sparse Attention | [sendsoonai.com/paper/ai/native-sparse-attention-deepseek-explained](https://sendsoonai.com/paper/ai/native-sparse-attention-deepseek-explained) |
+| Attention Residuals | [sendsoonai.com/paper/ai/attention-residuals-kimi-explained](https://sendsoonai.com/paper/ai/attention-residuals-kimi-explained) |
+| Kimi-Researcher: End-to-End RL Training for Emerging Agentic Capabilities | [sendsoonai.com/paper/ai/kimi-researcher-agentic-rl-explained](https://sendsoonai.com/paper/ai/kimi-researcher-agentic-rl-explained) |
 
 These pages are the public shape of the skill: title unaltered, abstract quoted first, then 5–6 searchable quotes with interpretation and an evidence boundary.
 

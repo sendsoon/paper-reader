@@ -4,3 +4,8 @@ Thumbs.db
 .idea/
 .vscode/
 *.swp
+
+# Local Chinese reading copies (not published)
+SKILL.zh-CN.md
+examples/output-template.zh-CN.md
+references/sources.zh-CN.md
